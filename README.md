@@ -71,7 +71,17 @@ php artisan migrate
 Then run the command to seeding dummy data.
 
 ```bash
-php artisan db:seed --class=CategorySeeder --class=ProductSeeder --class=UserSeeder
+php artisan db:seed  --class=UserSeeder
+
+```
+
+```bash
+php artisan db:seed --class=CategorySeeder
+
+```
+
+```bash
+php artisan db:seed  --class=ProductSeeder
 
 ```
 
